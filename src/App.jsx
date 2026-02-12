@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from "framer-motion"
 const isMobile = window.innerWidth < 768
 
 const texts = [
-  { text: "WSZYSTKIEGO", duration: 1300 },
-  { text: "NAJLEPSZEGO", duration: 1200 },
+  { text: "WSZYSTKIEGO", duration: 1600 },
+  { text: "NAJLEPSZEGO", duration: 1600 },
   { text: "Z OKAZJI", duration: 1600 },
   { text: "WALENTYNEK DLA CIEBIE", duration: 2000 },
   { text: "MARTYNKOO <3", duration: 3000 },
