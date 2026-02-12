@@ -117,16 +117,16 @@ function App() {
       {/* TEKSTY */}
       {started && (
         <AnimatePresence mode="wait">
-          <motion.h1
+          <motion.h2
             key={texts[index].text}
             className="text"
             initial={{ opacity: 0, scale: 0.85 }}
             animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 3.00 }}
+            exit={{ opacity: 0, scale: 1.00 }}
             transition={{ duration: 0.9 }}
           >
             {texts[index].text}
-          </motion.h1>
+          </motion.h2>
         </AnimatePresence>
       )}
     </div>
